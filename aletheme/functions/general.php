@@ -945,13 +945,6 @@ function ale_get_rss() {
 }
 
 /**
- * Display custom RSS url
- */
-function ale_favicon() {
-    echo ale_get_favicon();
-}
-
-/**
  * Get custom RSS url
  */
 function ale_get_favicon() {

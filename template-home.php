@@ -96,7 +96,7 @@ get_header(); ?>
                                 <input name="contact[address]" type="text" placeholder="Address" value="<?php echo isset($_POST['contact']['address']) ? $_POST['contact']['address'] : ''?>" required="required" id="contact-form-address" />
                             </div>
                             <div class="field">
-                                <input name="contact[date]" type="date" placeholder="Date" value="<?php echo isset($_POST['contact']['date']) ? $_POST['contact']['date'] : ''?>" required="required" id="contact-form-date" />
+                                <input name="contact[date]" type="date"  value="<?php echo isset($_POST['contact']['date']) ? $_POST['contact']['date'] : ''?>" required="required" id="contact-form-date" />
                             </div>
                             <div class="field">
                                 <textarea name="contact[massage]" placeholder="Comments..." id="contact-form-massage" required="required"><?php echo isset($_POST['contact']['massege']) ? $_POST['contact']['message'] : ''?></textarea>
@@ -182,8 +182,8 @@ get_header(); ?>
                             <div class="data_container <?php if ($j == 1) { echo 'popup_button'; } $i++;?> button<?php echo esc_attr($j)?>">
                                 <?php if (ale_get_meta('service_icon')){?>
                                     <div class="image_holder">
-                                        <?php echo "<img class='active_image' src=".esc_url(ale_get_meta('service_icon'))." alt=".get_the_title()." />";?>
-                                        <?php echo "<img class='hover_image' src=".esc_url(ale_get_meta('service_icon_hover'))." alt=".get_the_title()." />";?>
+                                        <?php echo "<img class='active_image' src=".esc_url(ale_get_meta('service_icon'))." alt='".get_the_title()."' />";?>
+                                        <?php echo "<img class='hover_image' src=".esc_url(ale_get_meta('service_icon_hover'))." alt='".get_the_title()."' />";?>
                                     </div>
                                 <?php }?>
                                 <div class="title_holder font_two">

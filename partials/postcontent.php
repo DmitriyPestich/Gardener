@@ -4,7 +4,7 @@
         <div class="post_info">
             <?php if (get_the_category()) {?>
                 <div class="post_category font_two">
-                    <?php the_category(', ');?>
+                    <?php the_category(' ');?>
                 </div>
             <?php }?>
             <?php if (comments_open() || get_comments_number()) {?>

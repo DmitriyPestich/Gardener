@@ -25,3 +25,6 @@ if ( is_readable($locale_file) )
  * If you want to add custom functions you should do manual
  * updates only.
  ****************************************************************/
+
+
+

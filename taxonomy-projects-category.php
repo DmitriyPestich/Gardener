@@ -47,65 +47,65 @@ $current = get_query_var('projects-category');
                     <?php $i = 0; if (have_posts()) : while (have_posts()) : the_post(); $i++;
 
                         if ($i == 1) {?>
-                            <article class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
+                            <div class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
                                 <a href="<?php the_permalink()?>"><?php echo get_the_post_thumbnail(get_the_ID(),'projects-img1');?>
                                     <span class="hover_icon"></span>
                                 </a>
-                            </article>
+                            </div>
                         <?php } else if ($i == 2) { ?>
-                            <article class="grid-projects-item grid-projects-item-two" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
+                            <div class="grid-projects-item grid-projects-item-two" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
                                 <a href="<?php the_permalink()?>"><?php echo get_the_post_thumbnail(get_the_ID(),'projects-img2');?>
                                     <span class="hover_icon"></span>
                                 </a>
-                            </article>
+                            </div>
                         <?php } else if ($i == 3) { ?>
-                            <article class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
+                            <div class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
                                 <a href="<?php the_permalink()?>"><?php echo get_the_post_thumbnail(get_the_ID(),'projects-img3');?>
                                     <span class="hover_icon"></span>
                                 </a>
-                            </article>
+                            </div>
                         <?php } else if ($i == 4) { ?>
-                            <article class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
+                            <div class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
                                 <a href="<?php the_permalink()?>"><?php echo get_the_post_thumbnail(get_the_ID(),'projects-img7');?>
                                     <span class="hover_icon"></span>
                                 </a>
-                            </article>
+                            </div>
                         <?php } else if ($i == 5) { ?>
-                            <article class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
+                            <div class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
                                 <a href="<?php the_permalink()?>"><?php echo get_the_post_thumbnail(get_the_ID(),'projects-img5');?>
                                     <span class="hover_icon"></span>
                                 </a>
-                            </article>
+                            </div>
                         <?php } else if ($i == 6) { ?>
-                            <article class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
+                            <div class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
                                 <a href="<?php the_permalink()?>"><?php echo get_the_post_thumbnail(get_the_ID(),'projects-img6');?>
                                     <span class="hover_icon"></span>
                                 </a>
-                            </article>
+                            </div>
                         <?php } else if ($i == 7) { ?>
-                            <article class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
+                            <div class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
                                 <a href="<?php the_permalink()?>"><?php echo get_the_post_thumbnail(get_the_ID(),'projects-img4');?>
                                     <span class="hover_icon"></span>
                                 </a>
-                            </article>
+                            </div>
                         <?php } else if ($i == 8) { ?>
-                            <article class="grid-projects-item grid-projects-item-two" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
+                            <div class="grid-projects-item grid-projects-item-two" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
                                 <a href="<?php the_permalink()?>"><?php echo get_the_post_thumbnail(get_the_ID(),'projects-img10');?>
                                     <span class="hover_icon"></span>
                                 </a>
-                            </article>
+                            </div>
                         <?php } else if ($i == 9) { ?>
-                            <article class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
+                            <div class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
                                 <a href="<?php the_permalink()?>"><?php echo get_the_post_thumbnail(get_the_ID(),'projects-img9');?>
                                     <span class="hover_icon"></span>
                                 </a>
-                            </article>
+                            </div>
                         <?php } else if ($i == 10) { ?>
-                            <article class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
+                            <div class="grid-projects-item" id="post-<?php the_ID()?>" data-post-id="<?php the_ID()?>">
                                 <a href="<?php the_permalink()?>"><?php echo get_the_post_thumbnail(get_the_ID(),'projects-img8');?>
                                     <span class="hover_icon"></span>
                                 </a>
-                            </article>
+                            </div>
                         <?php } ?>
 
 

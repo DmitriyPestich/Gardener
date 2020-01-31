@@ -4,7 +4,7 @@
     $('#accordion-container').accordion({
         firstChildExpand: true,
         slideSpeed: 500,
-        dropDownIcon: '<i class="fa fa-dot-circle-o" aria-hidden="true"></i>'
+        dropDownIcon: '<i class="fa fa-plus-square"></i>'
     });
 
     $( 'a.woocommerce-review-link' ).click( function(e) {

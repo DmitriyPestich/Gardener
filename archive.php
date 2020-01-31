@@ -62,13 +62,13 @@
                                     <h2 class="post_title font_two">
                                         <a href="<?php the_permalink();?>">
                                             <?php if (esc_attr(ale_get_meta('discount_service'))) {?>
-                                                <div class="sale">
+                                                <span class="sale">
                                                     <?php echo esc_attr(ale_get_meta('discount_service'));?>
-                                                </div>
+                                                </span>
                                             <?php }?>
                                             <?php
                                             $title = get_the_title();
-                                            echo wp_trim_words( $title, 3, ' ...' );
+                                            echo wp_trim_words( $title, 4, ' ...' );
                                             ?>
                                         </a>
                                     </h2>

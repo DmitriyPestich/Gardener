@@ -29,7 +29,7 @@
             <div class="top_item search_box">
                 <form id="search" method="get" action="<?php echo site_url()?>">
                     <input class="searchinput" type="text" name="s" size="21" maxlength="120" placeholder="" value="<?php echo get_search_query()?>">
-                    <input class="searchsubmit" type="submit" value="&#xf002">
+                    <input class="searchsubmit" type="submit" value="&#xf002;">
                 </form>
             </div>
         </div>
@@ -43,6 +43,7 @@
                 'post_type'   => 'post',
                 'meta_key'    => 'ale_post_to_slider',
                 'meta_value'  => 'on',
+                'post__not_in'  => get_option( 'sticky_posts' ),
                 'posts_per_page' => -1
             );
 
@@ -75,7 +76,7 @@
             </div>
             <div class="main-navigation_home font_two">
                 <?php if (has_nav_menu( 'header_menu')) { ?>
-                    <nav class="navigation header_nav_home wrapper">
+                    <nav class="navigation header_nav_home">
                         <?php
                         wp_nav_menu( array(
                             'theme_location' => 'header_menu',
@@ -91,7 +92,7 @@
     <?php } else {?>
     <div class="main-navigation font_two">
         <?php if (has_nav_menu( 'header_menu')) { ?>
-            <nav class="navigation header_nav wrapper">
+            <nav class="navigation header_nav">
                 <?php
                 wp_nav_menu( array(
                     'theme_location' => 'header_menu',

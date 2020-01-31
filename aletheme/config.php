@@ -25,6 +25,7 @@ function ale_get_options() {
                         "type" => "heading",
                         "icon" => "fa-desktop");
 
+
     $options[] = array( "name" => esc_html__("Site Logo","gardener"),
                         "desc" => esc_html__("Upload or put the site logo link.","gardener"),
                         "id" => "ale_sitelogo",
@@ -248,7 +249,7 @@ function ale_get_options() {
 
 	$options[] = array( "name" => esc_html__("Advanced Settings","gardener"),
 						"type" => "heading",
-                        "icon" => "fa-cogs");
+                         "icon" => "fa-cogs");
 
 	$options[] = array( "name" => esc_html__("Footer Code","gardener"),
 						"desc" => esc_html__("If you have anything else to add in the footer - please add it here.","gardener"),
@@ -484,6 +485,31 @@ function ale_metaboxes($meta_boxes) {
                     array( 'name' => esc_html__('Enable','gardener'), 'value' => 'enable', ),
                     array( 'name' => esc_html__('Disable','gardener'), 'value' => 'disable', ),
                 ),
+            ),
+        )
+    );
+
+    $meta_boxes[] = array(
+        'id'         => 'woocommerce_shop_metabox',
+        'title'      => esc_html__('Product Additional Info','gardener'),
+        'pages'      => array( 'product', ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_names' => true,
+        'fields' => array(
+            array(
+                'name' => esc_html__('Product Counter','gardener'),
+                'desc' => esc_html__('Type here how many items are in the package','gardener'),
+                'id'   => $prefix . 'product_counter',
+                'std'  => '',
+                'type' => 'text',
+            ),
+            array(
+                'name' => esc_html__('Product Archive Page Description','gardener'),
+                'desc' => esc_html__('Type here the text to show on archive page in hover mask','gardener'),
+                'id'   => $prefix . 'product_description',
+                'std'  => '',
+                'type' => 'text',
             ),
         )
     );

@@ -59,8 +59,9 @@ require_once (ALETHEME_PATH. '/functions/images_media.php');
 require_once (ALETHEME_PATH. '/functions/infinite-load.php');
 require_once (ALETHEME_PATH. '/functions/service-popup.php');
 require_once (ALETHEME_PATH. '/functions/social.php');
-require_once (ALETHEME_PATH. '/functions/woocommerce.php');
 require_once (ALETHEME_PATH. '/functions/tgm.php');
+require_once (ALETHEME_PATH. '/functions/woocommerce.php');
+
 require_once (ALETHEME_PATH. '/widgets/widget-about.php');
 require_once (ALETHEME_PATH. '/widgets/widget-blog.php');
 require_once (ALETHEME_PATH. '/widgets/widget-mostcommented.php');
