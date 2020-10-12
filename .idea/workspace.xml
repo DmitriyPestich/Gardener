@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16a44f28-b6d4-42e1-bad7-7fde68a61b73" name="Default Changelist" comment="final commit">
+      <change afterPath="$PROJECT_DIR$/.idea/gardener.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aletheme/.idea/aletheme.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aletheme/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aletheme/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aletheme/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aletheme/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/author_photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/background_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/background_image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/benjamin-combs-wuU_SSxDeS0-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bg_footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bg_partners.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bg_video_box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bigicon_for_event.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bigicon_for_event_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bigicon_for_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bigicon_for_home_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bigicon_gardeners_suply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bigicon_gardeners_suply_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bigicon_indoor_gardening.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bigicon_indoor_gardening_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bigicon_industrial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bigicon_industrial_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bigicon_other.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/bigicon_other_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/blog_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/border_slider.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/close_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/experience.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/florian-giorgio-t6kr9bbHaVg-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/footer_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/gardener.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/icon_for_event.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/icon_for_event_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/icon_for_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/icon_for_home_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/icon_gardeners_suply.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/icon_gardeners_suply_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/icon_indoor_gardening.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/icon_indoor_gardening_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/icon_industrial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/icon_industrial_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/icon_other.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/icon_other_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/innovations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/lightbox/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/lightbox/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/lightbox/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/lightbox/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/martin-knize-JjT_7MwREm4-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/mask_form.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/paginations_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/photo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/photo_video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/projects_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/search_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/separator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/service-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/service_info.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/services_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/slider_main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/slider_main2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/technologies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/testimon1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/testimon2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/testimon3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/vc_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/venobox/close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/venobox/next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/venobox/preload-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/images/venobox/prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-order.php" afterDir="false" />
+    </list>
+    <ignored path=".idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="73" column="54" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aletheme/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5678">
+              <caret line="334" column="53" selection-start-line="334" selection-start-column="45" selection-end-line="334" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jquery</find>
+      <find>color</find>
+      <find>colorpicker</find>
+      <find>colo</find>
+      <find>proje</find>
+      <find>projec</find>
+      <find>get_ter</find>
+      <find>method</find>
+      <find>servicetype</find>
+      <find>projects-category</find>
+      <find>'post_type'   =&gt; 'gardeners'</find>
+      <find>ale_gallery_id</find>
+      <find>wp_footer</find>
+      <find>ale_contact_form_send</find>
+      <find>post-blogimg</find>
+      <find>post_th</find>
+      <find>ale_get_images_sizes</find>
+      <find>the_ti</find>
+      <find>com</find>
+      <find>footer_info</find>
+      <find>ale_page_links</find>
+      <find>sea</find>
+      <find>do_sh</find>
+      <find>get_post</find>
+      <find>get_post_meta</find>
+      <find>img</find>
+      <find>auth</find>
+      <find>partners</find>
+      <find>post_count</find>
+      <find>fore</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'gardener'</replace>
+      <replace>&quot;gardener&quot;</replace>
+      <replace>gardener</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\OSPanel\domains\Gardener\wp-content\themes\gardener\aletheme</dir>
+      <dir>C:\OSPanel\domains\Gardener\wp-content\themes\gardener\aletheme\assets</dir>
+      <dir>C:\OSPanel\domains\Gardener\wp-content\themes\gardener\aletheme\etc</dir>
+      <dir>C:\OSPanel\domains\Gardener\wp-content\themes\gardener\aletheme\functions</dir>
+      <dir>C:\OSPanel\domains\Gardener\wp-content\themes\gardener</dir>
+      <dir>C:\OSPanel\domains\Gardener\wp-content\themes\gardener\aletheme\assets\js</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Pestich" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/aletheme/demos/gardener/ale_pages_media.php" />
+        <option value="$PROJECT_DIR$/../../../../GardenerDemo/wp-content/themes/gardener/aletheme/demos/gardener/ale_pages_media.php" />
+        <option value="$PROJECT_DIR$/../../../../GardenerDemo/wp-content/themes/gardener/aletheme/demos/gardener/ale_import.php" />
+        <option value="$PROJECT_DIR$/aletheme/etc/demos.php" />
+        <option value="$PROJECT_DIR$/../../../../GardenerDemo/wp-content/themes/gardener/template-about.php" />
+        <option value="$PROJECT_DIR$/js/libs/venobox.min.js" />
+        <option value="$PROJECT_DIR$/template-about.php" />
+        <option value="$PROJECT_DIR$/../../../../GardenerDemo/wp-content/themes/gardener/category.php" />
+        <option value="$PROJECT_DIR$/js/scripts.js" />
+        <option value="C:/Temp/Rar$DIa3732.36961/contact.php" />
+        <option value="C:/Temp/Rar$DIa5436.11753/contact.php" />
+        <option value="C:/Temp/Rar$DIa2988.38585/contact.php" />
+        <option value="C:/Temp/Rar$DIa6664.47454/contact.php" />
+        <option value="$PROJECT_DIR$/aletheme/demos/gardener/ale_import.php" />
+        <option value="$PROJECT_DIR$/aletheme/functions/service-popup.php" />
+        <option value="$PROJECT_DIR$/search.php" />
+        <option value="$PROJECT_DIR$/aletheme/etc/admin_templates/ale_view_demoinstall.php" />
+        <option value="$PROJECT_DIR$/aletheme/functions/social.php" />
+        <option value="$PROJECT_DIR$/aletheme/taxonomies/tax-meta-class.php" />
+        <option value="$PROJECT_DIR$/aletheme/etc/front.php" />
+        <option value="$PROJECT_DIR$/aletheme/functions/general.php" />
+        <option value="$PROJECT_DIR$/taxonomy-projects-category.php" />
+        <option value="$PROJECT_DIR$/partials/postcontent.php" />
+        <option value="$PROJECT_DIR$/tag.php" />
+        <option value="$PROJECT_DIR$/archive.php" />
+        <option value="$PROJECT_DIR$/author.php" />
+        <option value="$PROJECT_DIR$/category.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/aletheme/functions/customizer.php" />
+        <option value="$PROJECT_DIR$/css/reset.less" />
+        <option value="$APPLICATION_CONFIG_DIR$/phpstorm.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/css/main.less" />
+        <option value="$PROJECT_DIR$/../../../wp-config.php" />
+        <option value="$PROJECT_DIR$/../../../../GardenerDemo/wp-config.php" />
+        <option value="$PROJECT_DIR$/../../../../Alethemes/wp-content/themes/alethemes/aletheme/options/admin/options-interface.php" />
+        <option value="$PROJECT_DIR$/aletheme/assets/js/options-custom.js" />
+        <option value="$PROJECT_DIR$/../../../../Alethemes/wp-content/themes/alethemes/aletheme/etc/admin.php" />
+        <option value="$PROJECT_DIR$/aletheme/options/admin/options-framework.php" />
+        <option value="$PROJECT_DIR$/aletheme/options/admin/options-interface.php" />
+        <option value="$PROJECT_DIR$/aletheme/options/admin/options-medialibrary-uploader.php" />
+        <option value="$PROJECT_DIR$/archive-services.php" />
+        <option value="$PROJECT_DIR$/aletheme/metaboxes/metaboxes.php" />
+        <option value="$PROJECT_DIR$/aletheme/constants.php" />
+        <option value="$PROJECT_DIR$/aletheme/etc/admin.php" />
+        <option value="$PROJECT_DIR$/../../plugins/cpt-gardener/cpt-gardener.php" />
+        <option value="$PROJECT_DIR$/archive-projects.php" />
+        <option value="$PROJECT_DIR$/template-order.php" />
+        <option value="$PROJECT_DIR$/aletheme/config.php" />
+        <option value="$PROJECT_DIR$/partials/pagination.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/template-home.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="199" />
+    <option name="y" value="-8" />
+    <option name="width" value="1224" />
+    <option name="height" value="762" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gardener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gardener" type="462c0819:PsiDirectoryNode" />
+              <item name="aletheme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gardener" type="462c0819:PsiDirectoryNode" />
+              <item name="aletheme" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gardener" type="462c0819:PsiDirectoryNode" />
+              <item name="aletheme" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gardener" type="462c0819:PsiDirectoryNode" />
+              <item name="aletheme" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gardener" type="462c0819:PsiDirectoryNode" />
+              <item name="aletheme" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gardener" type="462c0819:PsiDirectoryNode" />
+              <item name="aletheme" type="462c0819:PsiDirectoryNode" />
+              <item name="metaboxes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gardener" type="462c0819:PsiDirectoryNode" />
+              <item name="aletheme" type="462c0819:PsiDirectoryNode" />
+              <item name="options" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gardener" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gardener" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="general.less" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gardener" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gardener" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\Gardener\wp-content\themes\gardener" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16a44f28-b6d4-42e1-bad7-7fde68a61b73" name="Default Changelist" comment="" />
+      <created>1563214699548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563214699548</updated>
+      <workItem from="1563214701174" duration="1729000" />
+      <workItem from="1563216441714" duration="2325000" />
+      <workItem from="1563218779296" duration="847000" />
+      <workItem from="1563290802419" duration="162000" />
+      <workItem from="1563290970085" duration="9860000" />
+      <workItem from="1563376684663" duration="72000" />
+      <workItem from="1563376761338" duration="21000" />
+      <workItem from="1563376785689" duration="7897000" />
+      <workItem from="1563385528950" duration="5701000" />
+      <workItem from="1563462992310" duration="11083000" />
+      <workItem from="1563549254818" duration="31998000" />
+      <workItem from="1563697303991" duration="24787000" />
+      <workItem from="1563811317735" duration="12446000" />
+      <workItem from="1563895467135" duration="13904000" />
+      <workItem from="1563982487466" duration="11924000" />
+      <workItem from="1564068124579" duration="7056000" />
+      <workItem from="1564154425063" duration="12134000" />
+      <workItem from="1564202567802" duration="29857000" />
+      <workItem from="1564257205394" duration="907000" />
+      <workItem from="1564299804592" duration="15323000" />
+      <workItem from="1564414210774" duration="10884000" />
+      <workItem from="1564503752360" duration="16678000" />
+      <workItem from="1564664910089" duration="9162000" />
+      <workItem from="1564748525839" duration="39710000" />
+      <workItem from="1564998598772" duration="17220000" />
+      <workItem from="1565079612227" duration="9692000" />
+      <workItem from="1565165300761" duration="22385000" />
+      <workItem from="1565251498550" duration="18723000" />
+      <workItem from="1565340375594" duration="20758000" />
+      <workItem from="1565533178490" duration="11615000" />
+      <workItem from="1565690749315" duration="14301000" />
+      <workItem from="1565779026994" duration="24280000" />
+      <workItem from="1565866161145" duration="13338000" />
+      <workItem from="1566113230220" duration="12796000" />
+      <workItem from="1566304035418" duration="16823000" />
+      <workItem from="1566461170164" duration="14209000" />
+      <workItem from="1566567930139" duration="24803000" />
+      <workItem from="1566922019902" duration="6379000" />
+      <workItem from="1566981697405" duration="22280000" />
+      <workItem from="1567154198748" duration="10634000" />
+      <workItem from="1567258749898" duration="1749000" />
+      <workItem from="1567332894763" duration="15477000" />
+      <workItem from="1567495830735" duration="11361000" />
+      <workItem from="1567670291702" duration="18617000" />
+      <workItem from="1568009249065" duration="27329000" />
+      <workItem from="1568542153336" duration="9273000" />
+      <workItem from="1568561166474" duration="2982000" />
+      <workItem from="1568637409169" duration="33000" />
+      <workItem from="1568637508866" duration="7827000" />
+      <workItem from="1568716569646" duration="19437000" />
+      <workItem from="1568881772890" duration="11753000" />
+      <workItem from="1568998104919" duration="1883000" />
+      <workItem from="1569051266336" duration="18228000" />
+      <workItem from="1569225941218" duration="12878000" />
+      <workItem from="1569241172531" duration="2708000" />
+      <workItem from="1569428772141" duration="635000" />
+      <workItem from="1569692302376" duration="6355000" />
+      <workItem from="1569744628417" duration="12724000" />
+      <workItem from="1569917339162" duration="9371000" />
+      <workItem from="1570430777956" duration="863000" />
+      <workItem from="1571754779181" duration="98000" />
+      <workItem from="1572352077622" duration="596000" />
+      <workItem from="1573146201263" duration="728000" />
+      <workItem from="1574176332935" duration="1244000" />
+      <workItem from="1575112879957" duration="386000" />
+      <workItem from="1575113327460" duration="276000" />
+      <workItem from="1575113679446" duration="688000" />
+      <workItem from="1575115023441" duration="2341000" />
+      <workItem from="1575122905862" duration="1035000" />
+      <workItem from="1575124548991" duration="4285000" />
+      <workItem from="1575219461822" duration="984000" />
+      <workItem from="1575972202552" duration="15704000" />
+      <workItem from="1575996569251" duration="1453000" />
+      <workItem from="1576000965320" duration="96000" />
+      <workItem from="1576160065562" duration="700000" />
+      <workItem from="1581175087178" duration="1130000" />
+      <workItem from="1581513540444" duration="1854000" />
+      <workItem from="1581523467090" duration="2462000" />
+      <workItem from="1584451324610" duration="4601000" />
+      <workItem from="1584964929416" duration="1893000" />
+      <workItem from="1584973537705" duration="830000" />
+      <workItem from="1584976631305" duration="477000" />
+      <workItem from="1585664329975" duration="4755000" />
+      <workItem from="1585990769983" duration="13232000" />
+      <workItem from="1586159954077" duration="10865000" />
+      <workItem from="1586267777923" duration="1349000" />
+      <workItem from="1586525601846" duration="626000" />
+      <workItem from="1587724480155" duration="512000" />
+      <workItem from="1588235288191" duration="11806000" />
+      <workItem from="1588255823972" duration="1280000" />
+      <workItem from="1589962314005" duration="520000" />
+      <workItem from="1589963120918" duration="5067000" />
+      <workItem from="1590141117825" duration="5858000" />
+      <workItem from="1590658402408" duration="3160000" />
+      <workItem from="1590827382246" duration="5469000" />
+      <workItem from="1602416700768" duration="501000" />
+      <workItem from="1602506074326" duration="169000" />
+    </task>
+    <task id="LOCAL-00001" summary="new file">
+      <created>1563302747273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563302747273</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixis">
+      <created>1563378197376</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563378197376</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixis">
+      <created>1563378220273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563378220273</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixis">
+      <created>1563378250939</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563378250939</updated>
+    </task>
+    <task id="LOCAL-00005" summary="css,js,fonts">
+      <created>1563381694555</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563381694555</updated>
+    </task>
+    <task id="LOCAL-00006" summary="post">
+      <created>1563710593468</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563710593468</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2">
+      <created>1569227575718</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569227575718</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2">
+      <created>1569227783618</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569227783618</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2">
+      <created>1569233976840</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569233976840</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2">
+      <created>1569234033359</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1569234033359</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1">
+      <created>1569239568693</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569239568693</updated>
+    </task>
+    <task id="LOCAL-00012" summary="first commit">
+      <created>1569243760117</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1569243760117</updated>
+    </task>
+    <task id="LOCAL-00013" summary="final commit">
+      <created>1602506168029</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602506168029</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="837216000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23853868" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.42705572" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32222223" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32798573" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3275862" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3275862" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32917318" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="13" weight="0.32874617" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32920793" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20200573" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.42705572" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32222223" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32798573" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3275862" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3275862" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32917318" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="13" weight="0.32874617" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32920793" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="new file" />
+    <MESSAGE value="fixis" />
+    <MESSAGE value="css,js,fonts" />
+    <MESSAGE value="post" />
+    <MESSAGE value="2" />
+    <MESSAGE value="1" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/aletheme/demos/gardener/ale_works_media.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/demos/import_rev_slider.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/demos/gardener/ale_options_media.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/demos/gardener/ale_import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4539" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/etc/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/assets/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/etc/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/etc/media.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <folding>
+            <element signature="n#style#0;n#b#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Temp/Rar$DIa5176.7404/admin.php" />
+    <entry file="file://$PROJECT_DIR$/aletheme/assets/js/colorpicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Temp/Rar$DIa6612.42521/constants.php" />
+    <entry file="file://$PROJECT_DIR$/aletheme/assets/images/grid.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/assets/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/assets/js/metaboxes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <folding>
+            <element signature="e#53#59#0" expanded="true" />
+            <element signature="e#59#65#0" expanded="true" />
+            <element signature="e#65#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/pagehead.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#article#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive-projects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/action.php" />
+    <entry file="file://$PROJECT_DIR$/aletheme/metaboxes/gallery-meta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/cpt-gardener/cpt-gardener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3196">
+          <caret line="196" column="16" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive-gardeners.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/metaboxes/metaboxes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3451">
+          <caret line="203" column="35" selection-start-line="203" selection-start-column="35" selection-end-line="203" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/options/admin/options-interface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/etc/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4051">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/options/options.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/css-option.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" column="84" lean-forward="true" selection-start-line="129" selection-start-column="84" selection-end-line="129" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/general.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/etc/system.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/pagination.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/general.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4185" column="13" selection-start-line="4185" selection-start-column="9" selection-end-line="4185" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/postfooter.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchform.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/functions/general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23324">
+          <caret line="82" column="38" lean-forward="true" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/postcontent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/etc/front.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="106" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comments.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5678">
+          <caret line="334" column="53" selection-start-line="334" selection-start-column="45" selection-end-line="334" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taxonomy-projects-category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="461" selection-start-line="461" selection-end-line="461" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/posthead.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="74" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="73" column="54" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

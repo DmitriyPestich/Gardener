@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e8986d4-2dcf-40e0-85bc-c8cfe3ecc89f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/js/options-custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/options-custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/constants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/etc/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/front.php" beforeDir="false" afterPath="$PROJECT_DIR$/etc/front.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/customizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/customizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/general.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/general.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/social.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/social.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options/admin/options-interface.php" beforeDir="false" afterPath="$PROJECT_DIR$/options/admin/options-interface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options/admin/options-medialibrary-uploader.php" beforeDir="false" afterPath="$PROJECT_DIR$/options/admin/options-medialibrary-uploader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archive-projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/../archive-projects.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archive-services.php" beforeDir="false" afterPath="$PROJECT_DIR$/../archive-services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/../archive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../author.php" beforeDir="false" afterPath="$PROJECT_DIR$/../author.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category.php" beforeDir="false" afterPath="$PROJECT_DIR$/../category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/general.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../css/general.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/../css/main.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/reset.less" beforeDir="false" afterPath="$PROJECT_DIR$/../css/reset.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../partials/postcontent.php" beforeDir="false" afterPath="$PROJECT_DIR$/../partials/postcontent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/../tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taxonomy-projects-category.php" beforeDir="false" afterPath="$PROJECT_DIR$/../taxonomy-projects-category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../template-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/../template-home.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="199" />
+    <option name="y" value="-8" />
+    <option name="width" value="1224" />
+    <option name="height" value="762" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="aletheme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aletheme" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e8986d4-2dcf-40e0-85bc-c8cfe3ecc89f" name="Default Changelist" comment="" />
+      <created>1581519649600</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581519649600</updated>
+      <workItem from="1581519651658" duration="67000" />
+      <workItem from="1581520267197" duration="1965000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2032000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25358167" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
