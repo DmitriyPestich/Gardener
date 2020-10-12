@@ -25,6 +25,7 @@ function ale_get_options() {
                         "type" => "heading",
                         "icon" => "fa-desktop");
 
+
     $options[] = array( "name" => esc_html__("Site Logo","gardener"),
                         "desc" => esc_html__("Upload or put the site logo link.","gardener"),
                         "id" => "ale_sitelogo",
@@ -248,7 +249,7 @@ function ale_get_options() {
 
 	$options[] = array( "name" => esc_html__("Advanced Settings","gardener"),
 						"type" => "heading",
-                        "icon" => "fa-cogs");
+                         "icon" => "fa-cogs");
 
 	$options[] = array( "name" => esc_html__("Footer Code","gardener"),
 						"desc" => esc_html__("If you have anything else to add in the footer - please add it here.","gardener"),
@@ -502,7 +503,7 @@ function ale_metaboxes($meta_boxes) {
                 'desc' => esc_html__('Type here the subtitle','gardener'),
                 'id'   => $prefix . 'author_subtitle',
                 'std'  => '',
-                'type' => 'text',
+                'type' => 'footer_info',
             ),
             array(
                 'name' => esc_html__('Author photo','gardener'),

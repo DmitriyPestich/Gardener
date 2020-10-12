@@ -17,7 +17,7 @@ function optionsframework_tabs() {
 			$jquery_click_hook = "of-option-" . $jquery_click_hook;
             $ale_icon = '';
             if(isset($value['icon'])){
-                $ale_icon = '<i class="fa '.esc_attr($value)['icon'].'" aria-hidden="true"></i>';
+                $ale_icon = '<i class="fa '.$value['icon'].'" aria-hidden="true"></i>';
             }
 			$menu .= '<a id="'.  esc_attr( $jquery_click_hook ) . '-tab" class="nav-tab" title="' . esc_attr( $value['name'] ) . '" href="' . esc_attr( '#'.  $jquery_click_hook ) . '">' . $ale_icon . esc_html( $value['name'] ) . '</a>';
 		}
@@ -214,9 +214,9 @@ function optionsframework_fields() {
 
 			// Typography
 		case 'typography':
-		
+
 			unset( $font_size, $font_style, $font_face, $font_transform,$font_weight,$font_lineheight, $font_color );
-		
+
 			$typography_defaults = array(
 				'size' => '',
 				'face' => '',
@@ -226,9 +226,9 @@ function optionsframework_fields() {
 				'lineheight' => '',
 				'color' => ''
 			);
-			
+
 			$typography_stored = wp_parse_args( $val, $typography_defaults );
-			
+
 			$typography_options = array(
 				'sizes' => of_recognized_font_sizes(),
 				'faces' => of_recognized_font_faces(),
@@ -238,7 +238,7 @@ function optionsframework_fields() {
 				'lineheight' => true,
 				'color' => true
 			);
-			
+
 			if ( isset( $value['options'] ) ) {
 				$typography_options = wp_parse_args( $value['options'], $typography_options );
 			}
@@ -311,12 +311,12 @@ function optionsframework_fields() {
 				$font_color = '<div class="ale_setting_line cf"><div class="half-box"><div class="ale_setting_title">'. esc_html__('Font Color:','gardener').'</div><div id="' . esc_attr( $value['id'] ) . '_color_picker" class="colorSelector"><div style="' . esc_attr( 'background-color:' . $typography_stored['color'] ) . '"></div></div>';
 				$font_color .= '<input class="of-color of-typography of-typography-color" name="' . esc_attr( $option_name . '[' . $value['id'] . '][color]' ) . '" id="' . esc_attr( $value['id'] . '_color' ) . '" type="text" value="' . esc_attr( $typography_stored['color'] ) . '" /></div></div>';
 			}
-	
+
 			// Allow modification/injection of typography fields
 			$typography_fields = compact( 'font_size', 'font_face', 'font_style', 'font_transform','font_weight','font_lineheight', 'font_color' );
 			$typography_fields = apply_filters( 'of_typography_fields', $typography_fields, $typography_stored, $option_name, $value );
 			$output .= implode( '', $typography_fields );
-			
+
 			break;
 
 		// Background
@@ -494,10 +494,10 @@ function optionsframework_fields() {
 			$output .= '<div class="group" id="' . esc_attr( $jquery_click_hook ) . '">';
 			$output .= '<h3>' . esc_html( $value['name'] ) . '</h3>' . "\n";
 			break;
-			
-			
-			
-			
+
+
+
+
 		/*********************************
 		 *********************************
 		 ** CUSTOM FIELDS ****************
@@ -506,9 +506,9 @@ function optionsframework_fields() {
 
 		// Heading Typography
 		case 'typo':
-			
+
 			$typo_stored = $val;
-			
+
 			// Font Size
 			$output .= '<p><label>Font Size: </label>';
 			$output .= '<select class="of-typography of-typo-size" name="' . esc_attr( $option_name . '[' . $value['id'] . '][size]' ) . '" id="' . esc_attr( $value['id'] . '_size' ) . '">';
@@ -517,11 +517,11 @@ function optionsframework_fields() {
 				$output .= '<option value="' . esc_attr( $size ) . '" ' . selected( $typo_stored['size'], $size, false ) . '>' . esc_html( $size ) . '</option>';
 			}
 			$output .= '</select></p>';
-			
+
 		case 'header':
-			
+
 			$typo_stored = $val;
-			
+
 			// Font Face
 			$output .= '<p><label>Font Family: </label>';
 			$output .= '<select class="of-typography of-typo-face" name="' . esc_attr( $option_name . '[' . $value['id'] . '][face]' ) . '" id="' . esc_attr( $value['id'] . '_face' ) . '">';
@@ -530,7 +530,7 @@ function optionsframework_fields() {
 				$output .= '<option value="' . esc_attr( $key ) . '" ' . selected( $typo_stored['face'], $key, false ) . '>' . esc_html( $face ) . '</option>';
 			}
 			$output .= '</select></p>';
-			
+
 			// Font Style
 			$output .= '<p><label>Font Style: </label>';
 			$output .= '<select class="of-typography of-typo-style" name="'.$option_name.'['.$value['id'].'][style]" id="'. $value['id'].'_style">';
@@ -539,7 +539,7 @@ function optionsframework_fields() {
 				$output .= '<option value="' . esc_attr( $key ) . '" ' . selected( $typo_stored['style'], $key, false ) . '>'. $style .'</option>';
 			}
 			$output .= '</select></p>';
-			
+
 			// Font Weight
 			$output .= '<p><label>Font Weight: </label>';
 			$output .= '<select class="of-typography of-typo-weight" name="'.$option_name.'['.$value['id'].'][weight]" id="'. $value['id'].'_style">';
@@ -548,7 +548,7 @@ function optionsframework_fields() {
 				$output .= '<option value="' . esc_attr( $key ) . '" ' . selected( $typo_stored['weight'], $key, false ) . '>'. $weight .'</option>';
 			}
 			$output .= '</select></p>';
-			
+
 			// Font Variant
 			$output .= '<p><label>Font Variant: </label>';
 			$output .= '<select class="of-typography of-typo-variant" name="'.$option_name.'['.$value['id'].'][variant]" id="'. $value['id'].'_style">';
@@ -557,7 +557,7 @@ function optionsframework_fields() {
 				$output .= '<option value="' . esc_attr( $key ) . '" ' . selected( $typo_stored['variant'], $key, false ) . '>'. $variant .'</option>';
 			}
 			$output .= '</select></p>';
-			
+
 			// Text Transform
 			$output .= '<p><label>Text Transform: </label>';
 			$output .= '<select class="of-typography of-typo-transform" name="'.$option_name.'['.$value['id'].'][transform]" id="'. $value['id'].'_style">';
@@ -566,13 +566,13 @@ function optionsframework_fields() {
 				$output .= '<option value="' . esc_attr( $key ) . '" ' . selected( $typo_stored['transform'], $key, false ) . '>'. $transform .'</option>';
 			}
 			$output .= '</select></p>';
-			
+
 			break;
-			
-			
+
+
 		// Color picker
 		case "color_link":
-			
+
 			$color_stored = $val;
 			if (!isset($color_stored['main'])) {
 				$color_stored['main'] = '';
@@ -580,9 +580,9 @@ function optionsframework_fields() {
 			if (!isset($color_stored['hover'])) {
 				$color_stored['hover'] = '';
 			}
-			
+
 			$labels = isset($value['labels']) ? $value['labels'] : array('main' => 'Main', 'hover' => 'Hover');
-			
+
 			$output .= '<div class="color-wrap">';
 			$output .= '<span class="color_helper">' . $labels['main'] .':</span>';
 			$output .= '<div id="' . esc_attr( $value['id'] . '_main_picker' ) . '" class="colorSelector"><div style="' . esc_attr( 'background-color:' . $color_stored['main'] ) . '"></div></div>';
@@ -592,9 +592,9 @@ function optionsframework_fields() {
 			$output .= '<div id="' . esc_attr( $value['id'] . '_hover_picker' ) . '" class="colorSelector"><div style="' . esc_attr( 'background-color:' . $color_stored['hover'] ) . '"></div></div>';
 			$output .= '<input class="of-color" name="' . esc_attr( $option_name . '[' . $value['id'] . ']' ) . '[hover]" id="' . esc_attr( $value['id'] ) . '_hover" type="text" value="' . esc_attr( $color_stored['hover'] ) . '" />';
 			$output .= '</div>';
-			
+
 			break;
-			
+
 		}
 
 		if ( ( $value['type'] != "heading" ) && ( $value['type'] != "info" ) ) {

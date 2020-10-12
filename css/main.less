@@ -357,6 +357,8 @@ section.breadcrumbs_section{
         font-size: 54px;
         text-transform: uppercase;
         margin-bottom: 30px;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
       }
 
       span.sub-title{
@@ -365,16 +367,17 @@ section.breadcrumbs_section{
 
 
       .post_info{
-        display: flex;
         align-items: center;
         justify-content: center;
         align-content: center;
         margin-bottom: 50px;
+        display: flex;
 
         .post_comments_count, .post_category, .post_date{
           padding: 0 14px;
           font-size: 11px;
           color: #898989;
+          line-height: 20px;
 
           &.post_comments_count{
             border-right: 1px solid #e0e0e0;
@@ -382,9 +385,11 @@ section.breadcrumbs_section{
           }
           &.post_category{
             a{
+              margin-right: 5px;
               background: #aac07e;
-              display: block;
+              display: inline-block;
               padding: 0 8px;
+              margin-bottom: 5px;
               .rounded(2px);
               color: #fff;
               font-weight: 700;
@@ -404,7 +409,7 @@ section.breadcrumbs_section{
           }
         }
         .post_category{
-
+          max-width: 80%;
           li{
 
           }
@@ -417,18 +422,33 @@ section.breadcrumbs_section{
       font-size: 13px;
       line-height: 24px;
       color: #555555;
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+      a{
+        color: @main_color;
+        text-decoration: underline;
+      }
+      code{
+        background: #fff;
+        display: block;
+        overflow: auto;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
       p{
         font-size: 13px;
         line-height: 24px;
+        color: #555555;
       }
       blockquote{
         position: relative;
         margin: 45px 45px 45px 0;
-        width: 55%;
-        float: left;
         p {
           font-size: 18px;
-          line-height: 22px;
+          line-height: 26px;
           color: #555555;
           line-height: 22px;
 
@@ -458,11 +478,15 @@ section.breadcrumbs_section{
           .comments_name{
             .comments_title{
               margin-bottom: 50px;
-              background: #ececec;
               height: 77px;
+
               h3{
                 line-height: 77px;
-                margin: 0 130px;
+                //margin: 0 130px;
+                a{
+                  color: #1f1f1f;
+                  text-decoration: underline;
+                }
               }
             }
           }
@@ -508,6 +532,8 @@ section.breadcrumbs_section{
                 background: #ececec;
                 display: inline-block;
                 position: relative;
+                max-width: 100%;
+                text-align: left;
                 &:before{
                   content: "";
                   width: 0;
@@ -555,7 +581,7 @@ section.breadcrumbs_section{
           .title_comment_label{
             line-height: 18px;
             display: flex;
-            align-items: flex-end;
+            align-items: center;
           }
         }
         .line-item{
@@ -1974,7 +2000,9 @@ section.breadcrumbs_section{
         color: rgba(0,0,0,0.4);
       }
       .post_categoty{
-        background: #f07b7b;
+        a{
+          background: #f07b7b;
+        }
       }
       .button, .coments_count, .date_post{
         color: #fff;
@@ -2010,6 +2038,8 @@ section.breadcrumbs_section{
     overflow: hidden;
     figure {
       position: relative;
+      min-height: 400px;
+      background: #f5f5f5;
       figcaption{
         background: rgba(0,0,0,0.62);
         background: -moz-linear-gradient(left, rgba(0,0,0,0.62) 0%, rgba(255,255,255,0) 69%);
@@ -2150,20 +2180,26 @@ section.breadcrumbs_section{
     .post_data{
       padding: 65px 50px;
       box-sizing: border-box;
-      height: 360px;
+      min-height: 360px;
       .post_categoty{
         display: block;
         margin-bottom: 15px;
-        background: #aac07e;
         text-transform: uppercase;
         color: #fff;
         font-weight: 800;
         display: inline-block;
-        .rounded(3px);
-        padding: 5px 10px;
         font-size: 11px;
         a{
           color: inherit;
+          background: #aac07e;
+          .rounded(3px);
+          padding: 5px 10px;
+          margin-right: 5px;
+          display: inline-block;
+          margin-bottom: 5px;
+          &:hover{
+            background: #ffb458;
+          }
         }
       }
       .post_title{
@@ -2173,6 +2209,9 @@ section.breadcrumbs_section{
         font-size: 34px;
         font-weight: 700;
         margin-bottom: 5px;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+
         a{
           color: inherit;
         }
@@ -2277,16 +2316,22 @@ section.breadcrumbs_section{
       .post_categoty{
         display: block;
         margin-bottom: 15px;
-        background: #aac07e;
         text-transform: uppercase;
         color: #fff;
         font-weight: 800;
         display: inline-block;
-        .rounded(3px);
-        padding: 5px 10px;
         font-size: 11px;
         a{
           color: inherit;
+          .rounded(3px);
+          padding: 5px 10px;
+          background: #aac07e;
+          margin-right: 5px;
+          display: inline-block;
+          margin-bottom: 5px;
+          &:hover{
+            background: #ffb458;
+          }
         }
       }
       .post_title{
@@ -3122,7 +3167,7 @@ section.breadcrumbs_section{
                 margin-left: 6px;
               }
             }
-            a{
+            a.order{
               color: @yellow_color;
               text-transform: uppercase;
               font-size: 16px;
@@ -3187,7 +3232,7 @@ section.breadcrumbs_section{
                 .transition(all 300ms ease-in-out);
               }
             }
-            a{
+            a.order{
               order: -1;
               color: @yellow_color;
               text-transform: uppercase;
@@ -3676,6 +3721,11 @@ body.admin-bar{
   }
 }
 
+no-comments{
+  text-align: center;
+  padding: 10px;
+}
+
 .not-found{
   min-height: 300px;
   text-align: center;
@@ -3683,6 +3733,29 @@ body.admin-bar{
   p{
     text-align: center;
   }
+}
+
+iframe{
+  max-width: 100%;
+}
+
+.sticky{
+ text-align: left;
+  figure{
+    background: #95c263!important;
+  }
+}
+
+figcaption{
+  padding-top: 10px!important;
+}
+
+.gallery-caption{
+ font-size: 12px;
+}
+
+.bypostauthor{
+  font-size: 12px;
 }
 
 .footer_for_about{

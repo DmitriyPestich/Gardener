@@ -18,7 +18,7 @@
         ?>
             <div class="services_item" <?php
                 if(esc_url(ale_get_meta('service_bigicon'))) { ?>
-                    style="background-image:url(<?php echo esc_url(ale_get_meta('service_bigicon'));?>)";
+                    style="background-image:url(<?php echo esc_url(ale_get_meta('service_bigicon'));?>)"
             <?php } ?>>
                 <div class="service_data">
                     <h3 class="services_title font_two"><?php the_title();?></h3>
@@ -26,8 +26,8 @@
                         <?php echo ale_limit_excerpt(53);?>
                     </div>
                     <div class="details_buttons">
-                        <span class="service_show_details details font_two venobox_service_popup" data-vbtype="inline" title="My Description" href="#service_popup" data-id="<?php echo get_the_ID();?>"><?php echo esc_html_e('Details', 'gardener');?><i class="fa fa-arrow-right"></i></span>
-                        <a href="<?php echo home_url("/order/")."?servicetype=".get_the_ID();?>"><?php echo esc_html_e('Order', 'gardener');?></a>
+                        <a class="service_show_details details font_two venobox_service_popup" data-vbtype="inline" title="My Description" href="#service_popup" data-id="<?php echo get_the_ID();?>"><?php echo esc_html_e('Details', 'gardener');?><i class="fa fa-arrow-right"></i></a>
+                        <a class="order" href="<?php echo home_url("/order/")."?servicetype=".get_the_ID();?>"><?php echo esc_html_e('Order', 'gardener');?></a>
                     </div>
                 </div>
             </div>

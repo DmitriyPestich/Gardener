@@ -32,7 +32,7 @@ if ( ! function_exists( 'optionsframework_mlu_css' ) ) {
 	    var tb_closeImage = "' . site_url() . '/' . WPINC . '/js/thickbox/tb-close.png";
 	    </script>' . "\n";
 	    
-	    echo ''.esc_attr($_html);
+	    echo ''.$_html;
 		
 	}
 

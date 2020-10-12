@@ -3,12 +3,12 @@
  * Add admin scripts and styles
  */
 function ale_add_scripts($hook) {
-	
+
 	// Add general scripts & styles
 	wp_enqueue_style('aletheme-admin-css', ALETHEME_URL . '/assets/css/admin.css', array(), ALETHEME_THEME_VERSION);
 	wp_register_style( 'font-awesome', ALETHEME_THEME_URL . '/css/font-awesome.min.css', array(), ALETHEME_THEME_VERSION, 'all');
 
-	wp_enqueue_script('aletheme-colorpicker', ALETHEME_URL.'/assets/js/colorpicker.js', array('jquery'));
+	wp_enqueue_script('aletheme-colorpicker', ALETHEME_URL .'/assets/js/colorpicker.js', array('jquery'));
 	wp_enqueue_script('aletheme-admin-js', ALETHEME_URL . '/assets/js/admin.js', array('jquery', 'aletheme_colorpicker'), ALETHEME_THEME_VERSION);
     wp_enqueue_script( 'aletheme-metaboxes', ALETHEME_URL . '/assets/js/metaboxes.js', array( 'jquery', 'jquery-ui-core', 'jquery-ui-datepicker', 'media-upload', 'thickbox') );
 
@@ -23,7 +23,7 @@ function ale_add_scripts($hook) {
     }
 
 
-	
+
 	// Add scripts for Theme Options page
     if (in_array($hook, array('appearance_page_aletheme'))) {
 		wp_enqueue_script('jquery-ui-core');
@@ -59,10 +59,10 @@ function ale_add_scripts($hook) {
 add_action( 'admin_enqueue_scripts', 'ale_add_scripts', 10 );
 
 /**
- * Add Aletheme Options to Admin Navigation 
+ * Add Aletheme Options to Admin Navigation
  */
 function ale_add_admin_menu() {
-    add_theme_page( esc_html__('Theme Options', 'gardener'), esc_html__('Theme Options', 'gardener'), 'edit_theme_options', 'gardener','optionsframework_page');
+    add_theme_page( esc_html__('Theme Options', 'gardener'), esc_html__('Theme Options', 'gardener'), 'edit_theme_options', 'aletheme','optionsframework_page');
     //add_theme_page( esc_html__('Demo Install', 'gardener'), esc_html__('Demo Install', 'gardener'), 'edit_posts', 'aletheme_theme_demos','ale_theme_demos');
 }
 add_action('admin_menu', 'ale_add_admin_menu', 1);
@@ -82,13 +82,13 @@ function ale_theme_demos() {
 }
 
 /**
- * Add custom post types to navigation 
+ * Add custom post types to navigation
  */
 function ale_admin_custom_to_navigation() {
 	$post_types = get_post_types(array(
 		'show_in_nav_menus' => true
 	), 'object' );
-	
+
 	foreach ( $post_types as $post_type ) {
 		if ( $post_type->has_archive ) {
 			add_filter( 'nav_menu_items_' . $post_type->name, 'ale_admin_custom_to_navigation_checkbox', null, 3 );
@@ -104,7 +104,7 @@ add_action( 'admin_head-nav-menus.php', 'ale_admin_custom_to_navigation');
  * @param array $posts
  * @param array $args
  * @param string $post_type
- * @return array 
+ * @return array
  */
 function ale_admin_custom_to_navigation_checkbox($posts, $args, $post_type) {
 	global $_nav_menu_placeholder, $wp_rewrite;
@@ -126,13 +126,13 @@ function ale_admin_custom_to_navigation_checkbox($posts, $args, $post_type) {
 		'type' => 'custom',
 		'url' => site_url( $archive_slug ),
 	) );
-	
+
 	return $posts;
 }
 
 
 /**
- * Add custom columns to admin data tables 
+ * Add custom columns to admin data tables
  */
 function ale_admin_table_columns() {
 	if (function_exists('aletheme_get_post_types')) {
@@ -140,8 +140,8 @@ function ale_admin_table_columns() {
 			if (isset($config['columns']) && count($config['columns'])) {
 				foreach ($config['columns'] as $column) {
 					if (function_exists('ale_admin_posts_' . $column . '_column_head') && function_exists('ale_admin_posts_' . $column . '_column_content')) {
-						add_filter('manage_' . $type . '_posts_columns', 'ale_admin_posts_' . $column . '_column_head', 10); 
-						add_action('manage_' . $type . '_posts_custom_column', 'ale_admin_posts_' . $column . '_column_content', 10, 2);						
+						add_filter('manage_' . $type . '_posts_columns', 'ale_admin_posts_' . $column . '_column_head', 10);
+						add_action('manage_' . $type . '_posts_custom_column', 'ale_admin_posts_' . $column . '_column_content', 10, 2);
 					}
 				}
 			}
@@ -152,59 +152,59 @@ add_action('admin_init', 'ale_admin_table_columns', 100);
 
 /**
  * Add featured image header column to admin data-table
- * 
+ *
  * @param array $defaults
- * @return array 
+ * @return array
  */
 function ale_admin_posts_featured_column_head($defaults) {
 	ale_array_put_to_position($defaults, 'Image', 1, 'featured-image');
-	return $defaults;  
+	return $defaults;
 }
 
 /**
  * Add featured image data column to admin data-table
  *
  * @param string $column_name
- * @param int $post_id 
+ * @param int $post_id
  */
 function ale_admin_posts_featured_column_content($column_name, $post_id) {
-	if ($column_name == 'featured-image') {  
-		$post_featured_image = ale_get_featured_image_src($post_id);  
-		if ($post_featured_image) {  
+	if ($column_name == 'featured-image') {
+		$post_featured_image = ale_get_featured_image_src($post_id);
+		if ($post_featured_image) {
 			echo '<img src="' . esc_url($post_featured_image) . '" alt="" width="60" />';
-		}  
+		}
 	}
 }
 
 
 /**
  * Add featured image header column to admin data-table
- * 
+ *
  * @param array $defaults
- * @return array 
+ * @return array
  */
-function ale_admin_posts_first_image_column_head($defaults) {  
+function ale_admin_posts_first_image_column_head($defaults) {
 	ale_array_put_to_position($defaults, 'Image', 1, 'first-image');
-	return $defaults;  
+	return $defaults;
 }
 
 /**
  * Add featured image data column to admin data-table
  *
  * @param string $column_name
- * @param int $post_id 
+ * @param int $post_id
  */
 function ale_admin_posts_first_image_column_content($column_name, $post_id) {
-	if ($column_name == 'first-image') {  
+	if ($column_name == 'first-image') {
 		if (has_post_thumbnail($post_id)) :
 			$image = ale_get_featured_image_src($post_id);
 		else :
 			$image = ale_get_first_attached_image_src($post_id);
-		endif;	
+		endif;
 
-		if ($image) {  
+		if ($image) {
 			echo '<img src="' . esc_url($image) . '" alt="" width="60" />';
-		}  
+		}
 	}
 }
 

@@ -127,9 +127,6 @@ add_action( 'wp_enqueue_scripts', 'ale_google_fonts_scripts' );
 function ale_head() {
 	?>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) { ?>
-		<link rel="shortcut icon" href="<?php esc_url(ale_favicon()); ?>" />
-	<?php } ?>
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> <?php esc_html_e('RSS Feed','gardener') ?>" href="<?php ale_rss(); ?>" />
 	<?php

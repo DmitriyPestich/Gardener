@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 <section class="site_container">
     <div class="page_heading font_two">
-        <h2 class="page_title wrapper"><?php esc_html_e('Our Blog', 'gardener');?></h2>
+        <h2 class="page_title wrapper">
+            <?php esc_html_e('Our Blog', 'gardener');?>
+        </h2>
     </div>
     <div class="blog_cats">
         <div class="wrapper">
@@ -51,7 +53,7 @@
                                     <?php }?>
                                     <?php
                                     $title = get_the_title();
-                                    echo wp_trim_words( $title, 3, ' ...' );
+                                    echo wp_trim_words( $title, 4, ' ...' );
                                     ?>
                                 </a>
                             </h2>
@@ -91,13 +93,13 @@
                         <h2 class="post_title font_two">
                             <a href="<?php the_permalink();?>">
                                 <?php if (esc_attr(ale_get_meta('discount_service'))) {?>
-                                    <div class="sale">
+                                    <span class="sale">
                                         <?php echo esc_attr(ale_get_meta('discount_service'));?>
-                                    </div>
+                                    </span>
                                 <?php }?>
                                 <?php
                                 $title = get_the_title();
-                                echo wp_trim_words( $title, 3, ' ...' );
+                                echo wp_trim_words( $title, 4, ' ...' );
                                 ?>
                             </a>
                         </h2>

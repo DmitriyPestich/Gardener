@@ -74,7 +74,7 @@ function ale_get_recent_from_instagram($login = '',$access_token = '',$count = '
     } else {
 
         wp_enqueue_script( 'ale-instafeed' );
-        wp_localize_script( 'ale-instafeed', 'olins_instagram', array(
+        wp_localize_script( 'ale-instafeed', 'gardener_instagram', array(
             'token' => $token,
             'username' => $login,
             'num_photos' => $count,
