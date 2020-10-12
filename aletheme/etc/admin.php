@@ -293,3 +293,5 @@ function ale_ajax_post_install_plugin() {
 }
 add_action( 'wp_ajax_olins_post_install_plugin', 'ale_ajax_post_install_plugin');
 add_action( 'wp_ajax_olins_post_activate_plugin', 'ale_ajax_post_activate_plugin');
+
+

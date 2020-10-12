@@ -136,14 +136,15 @@ $ale_custom_blog_infolinefamily = '';
 
 
     <?php if($ale_font_one){?>
-        .font_one
-        {
+        .font_one, .woocommerce ul.products li.product a, .hover_description, .woocommerce .widget_shopping_cart .woocommerce-mini-cart__buttons a.button
+    {
             <?php if($ale_font_one){ $font_one =  str_replace ('+',' ',$ale_font_one); echo "font-family:".$font_one.";"; }; ?>
         }
     <?php } ?>
 
     <?php if($ale_font_two){?>
-        .font_two, table thead, #wp-calendar caption
+        .font_two, table thead, #wp-calendar caption, .woocommerce ul.products li.product .onsale, .woocommerce ul.products li.product .price,
+        .accordion-header h1, aside.sidebar .sidebar_container .widget ul li a, .woocommerce ul.product_list_widget li span.quantity,aside.sidebar .sidebar_container .woocommerce-Price-amount
         {
             <?php if($ale_font_two){ $font_two =  str_replace ('+',' ',$ale_font_two); echo "font-family:".$font_two.";"; }; ?>
         }

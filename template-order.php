@@ -68,7 +68,11 @@ if (isset($_GET['servicetype'])) {
                         $services = new WP_Query($args);
                         $selected = "";
 
+<<<<<<< HEAD
 
+=======
+                        $i = 0;
+>>>>>>> origin/master
                         if ($services->have_posts()) : while ($services->have_posts()) : $services->the_post();
 
                             if ($post_service_id == get_the_ID()){

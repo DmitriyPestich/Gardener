@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="16a44f28-b6d4-42e1-bad7-7fde68a61b73" name="Default Changelist" comment="final commit">
       <change afterPath="$PROJECT_DIR$/.idea/gardener.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -87,6 +88,49 @@
       <change afterPath="$PROJECT_DIR$/template-about.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template-contact.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/template-order.php" afterDir="false" />
+=======
+    <list default="true" id="16a44f28-b6d4-42e1-bad7-7fde68a61b73" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/woocommerce/archive-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/cart/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/cart/cross-sells.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/cart/mini-cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/content-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/content-single-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/content-widget-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/css/woo_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/global/wrapper-start.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/woocommerce/single-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aletheme/assets/js/options-custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/assets/js/options-custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aletheme/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aletheme/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/constants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aletheme/etc/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/etc/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aletheme/etc/front.php" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/etc/front.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aletheme/functions/customizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/functions/customizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aletheme/functions/general.php" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/functions/general.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aletheme/functions/social.php" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/functions/social.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aletheme/functions/woocommerce.php" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/functions/woocommerce.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aletheme/options/admin/options-interface.php" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/options/admin/options-interface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aletheme/options/admin/options-medialibrary-uploader.php" beforeDir="false" afterPath="$PROJECT_DIR$/aletheme/options/admin/options-medialibrary-uploader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive-projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/archive-projects.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive-services.php" beforeDir="false" afterPath="$PROJECT_DIR$/archive-services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/archive.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author.php" beforeDir="false" afterPath="$PROJECT_DIR$/author.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/general.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/general.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/reset.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/libs/woocommerce.accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/libs/woocommerce.accordion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/css-option.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/css-option.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/postcontent.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/postcontent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taxonomy-projects-category.php" beforeDir="false" afterPath="$PROJECT_DIR$/taxonomy-projects-category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-home.php" afterDir="false" />
+>>>>>>> origin/master
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,34 +161,98 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/header.php">
+=======
+        <entry file="file://$PROJECT_DIR$/woocommerce/content-single-product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="73" column="54" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="54" />
+            <state relative-caret-position="714">
+              <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woocommerce/content-widget-product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woocommerce/css/woo_style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="680" column="54" selection-start-line="680" selection-start-column="54" selection-end-line="680" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aletheme/functions/woocommerce.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="191" column="5" selection-start-line="191" selection-start-column="3" selection-end-line="215" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/woocommerce/cart/mini-cart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="58" column="133" selection-start-line="58" selection-start-column="133" selection-end-line="58" selection-end-column="133" />
+              <folding>
+                <element signature="e#135#142#1" expanded="true" />
+              </folding>
+>>>>>>> origin/master
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="73" column="54" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="54" />
+=======
+        <entry file="file://$PROJECT_DIR$/woocommerce/cart/cart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="122" column="29" lean-forward="true" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
+              <folding>
+                <element signature="e#87#94#1" expanded="true" />
+              </folding>
+>>>>>>> origin/master
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/aletheme/config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5678">
               <caret line="334" column="53" selection-start-line="334" selection-start-column="45" selection-end-line="334" selection-end-column="53" />
+=======
+        <entry file="file://$PROJECT_DIR$/partials/css-option.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="146" column="191" selection-start-line="146" selection-start-column="191" selection-end-line="146" selection-end-column="191" />
+>>>>>>> origin/master
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
       <find>jquery</find>
@@ -177,6 +285,47 @@
       <find>partners</find>
       <find>post_count</find>
       <find>fore</find>
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>active_plugins</find>
+      <find>general</find>
+      <find>general.css</find>
+      <find>wp_head</find>
+      <find>add_action('wp_enqueue')</find>
+      <find>apply_filters('wp_</find>
+      <find>woocommerce/woocommerce.php</find>
+      <find>loop_shop_per_page</find>
+      <find>sto</find>
+      <find>about</find>
+      <find>woo</find>
+      <find>cou</find>
+      <find>font</find>
+      <find>$ale_font_one</find>
+      <find>font_one</find>
+      <find>counter_meta</find>
+      <find>counte</find>
+      <find>woocommerce_shop_loop_item_title</find>
+      <find>cate</find>
+      <find>member_gardener</find>
+      <find>yellow_color</find>
+      <find>fl</find>
+      <find>.col</find>
+      <find>accordion-item</find>
+      <find>acc</find>
+      <find>.s</find>
+      <find>textare</find>
+      <find>li.product</find>
+      <find>ul.product_list_widget li img</find>
+      <find>ale_pa</find>
+>>>>>>> origin/master
     </findStrings>
     <replaceStrings>
       <replace>'gardener'</replace>
@@ -190,7 +339,10 @@
       <dir>C:\OSPanel\domains\Gardener\wp-content\themes\gardener\aletheme\etc</dir>
       <dir>C:\OSPanel\domains\Gardener\wp-content\themes\gardener\aletheme\functions</dir>
       <dir>C:\OSPanel\domains\Gardener\wp-content\themes\gardener</dir>
+<<<<<<< HEAD
       <dir>C:\OSPanel\domains\Gardener\wp-content\themes\gardener\aletheme\assets\js</dir>
+=======
+>>>>>>> origin/master
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -205,6 +357,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/aletheme/demos/gardener/ale_pages_media.php" />
         <option value="$PROJECT_DIR$/../../../../GardenerDemo/wp-content/themes/gardener/aletheme/demos/gardener/ale_pages_media.php" />
         <option value="$PROJECT_DIR$/../../../../GardenerDemo/wp-content/themes/gardener/aletheme/demos/gardener/ale_import.php" />
@@ -220,31 +373,55 @@
         <option value="C:/Temp/Rar$DIa6664.47454/contact.php" />
         <option value="$PROJECT_DIR$/aletheme/demos/gardener/ale_import.php" />
         <option value="$PROJECT_DIR$/aletheme/functions/service-popup.php" />
+=======
+>>>>>>> origin/master
         <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/aletheme/etc/admin_templates/ale_view_demoinstall.php" />
         <option value="$PROJECT_DIR$/aletheme/functions/social.php" />
         <option value="$PROJECT_DIR$/aletheme/taxonomies/tax-meta-class.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/aletheme/etc/front.php" />
         <option value="$PROJECT_DIR$/aletheme/functions/general.php" />
         <option value="$PROJECT_DIR$/taxonomy-projects-category.php" />
         <option value="$PROJECT_DIR$/partials/postcontent.php" />
+=======
+        <option value="$PROJECT_DIR$/aletheme/functions/general.php" />
+        <option value="$PROJECT_DIR$/template-home.php" />
+        <option value="$PROJECT_DIR$/archive-services.php" />
+        <option value="$PROJECT_DIR$/archive-projects.php" />
+        <option value="$PROJECT_DIR$/taxonomy-projects-category.php" />
+        <option value="$PROJECT_DIR$/partials/postcontent.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+>>>>>>> origin/master
         <option value="$PROJECT_DIR$/tag.php" />
         <option value="$PROJECT_DIR$/archive.php" />
         <option value="$PROJECT_DIR$/author.php" />
         <option value="$PROJECT_DIR$/category.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/aletheme/functions/customizer.php" />
         <option value="$PROJECT_DIR$/css/reset.less" />
         <option value="$APPLICATION_CONFIG_DIR$/phpstorm.exe.vmoptions" />
         <option value="$PROJECT_DIR$/css/main.less" />
+=======
+        <option value="$PROJECT_DIR$/aletheme/functions/customizer.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/phpstorm.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/css/main.less" />
+        <option value="$PROJECT_DIR$/template-order.php" />
+>>>>>>> origin/master
         <option value="$PROJECT_DIR$/../../../wp-config.php" />
         <option value="$PROJECT_DIR$/../../../../GardenerDemo/wp-config.php" />
         <option value="$PROJECT_DIR$/../../../../Alethemes/wp-content/themes/alethemes/aletheme/options/admin/options-interface.php" />
         <option value="$PROJECT_DIR$/aletheme/assets/js/options-custom.js" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/aletheme/constants.php" />
+>>>>>>> origin/master
         <option value="$PROJECT_DIR$/../../../../Alethemes/wp-content/themes/alethemes/aletheme/etc/admin.php" />
         <option value="$PROJECT_DIR$/aletheme/options/admin/options-framework.php" />
         <option value="$PROJECT_DIR$/aletheme/options/admin/options-interface.php" />
         <option value="$PROJECT_DIR$/aletheme/options/admin/options-medialibrary-uploader.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/archive-services.php" />
         <option value="$PROJECT_DIR$/aletheme/metaboxes/metaboxes.php" />
         <option value="$PROJECT_DIR$/aletheme/constants.php" />
@@ -256,13 +433,43 @@
         <option value="$PROJECT_DIR$/partials/pagination.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/template-home.php" />
+=======
+        <option value="$PROJECT_DIR$/woocommerce/cart/cross-sells.php" />
+        <option value="$PROJECT_DIR$/woocommerce/css/style.css" />
+        <option value="$PROJECT_DIR$/woocommerce/css/woo_styles.css" />
+        <option value="$PROJECT_DIR$/woocommerce/archive-product.php" />
+        <option value="$PROJECT_DIR$/woocommerce/content-product.php" />
+        <option value="$PROJECT_DIR$/aletheme/etc/admin.php" />
+        <option value="$PROJECT_DIR$/aletheme/config.php" />
+        <option value="$PROJECT_DIR$/woocommerce/single-product.php" />
+        <option value="$PROJECT_DIR$/sidebar.php" />
+        <option value="$PROJECT_DIR$/woocommerce/global/wrapper-start.php" />
+        <option value="$PROJECT_DIR$/aletheme/etc/front.php" />
+        <option value="$PROJECT_DIR$/js/libs/woocommerce.accordion.js" />
+        <option value="$PROJECT_DIR$/css/reset.less" />
+        <option value="$PROJECT_DIR$/woocommerce/content-widget-product.php" />
+        <option value="$PROJECT_DIR$/../../plugins/woocommerce/templates/cart/mini-cart.php" />
+        <option value="$PROJECT_DIR$/woocommerce/cart/cart.php" />
+        <option value="$PROJECT_DIR$/../../plugins/woocommerce/templates/cart/cart.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/partials/css-option.php" />
+        <option value="$PROJECT_DIR$/woocommerce/css/woo_style.css" />
+        <option value="$PROJECT_DIR$/woocommerce/cart/mini-cart.php" />
+        <option value="$PROJECT_DIR$/aletheme/functions/woocommerce.php" />
+>>>>>>> origin/master
       </list>
     </option>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="199" />
     <option name="y" value="-8" />
+=======
+    <option name="x" value="70" />
+    <option name="y" value="-18" />
+>>>>>>> origin/master
     <option name="width" value="1224" />
     <option name="height" value="762" />
   </component>
@@ -277,6 +484,7 @@
         <subPane>
           <expand>
             <path>
+<<<<<<< HEAD
               <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
               <item name="gardener" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -301,16 +509,35 @@
             <path>
               <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
               <item name="gardener" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="WooCommers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WooCommers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WooCommers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WooCommers" type="462c0819:PsiDirectoryNode" />
+              <item name="aletheme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WooCommers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WooCommers" type="462c0819:PsiDirectoryNode" />
+>>>>>>> origin/master
               <item name="aletheme" type="462c0819:PsiDirectoryNode" />
               <item name="etc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+<<<<<<< HEAD
               <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
               <item name="gardener" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="WooCommers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WooCommers" type="462c0819:PsiDirectoryNode" />
+>>>>>>> origin/master
               <item name="aletheme" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+<<<<<<< HEAD
               <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
               <item name="gardener" type="462c0819:PsiDirectoryNode" />
               <item name="aletheme" type="462c0819:PsiDirectoryNode" />
@@ -342,6 +569,33 @@
               <item name="gardener" type="b2602c69:ProjectViewProjectNode" />
               <item name="gardener" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="WooCommers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WooCommers" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WooCommers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WooCommers" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WooCommers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WooCommers" type="462c0819:PsiDirectoryNode" />
+              <item name="woocommerce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WooCommers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WooCommers" type="462c0819:PsiDirectoryNode" />
+              <item name="woocommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WooCommers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WooCommers" type="462c0819:PsiDirectoryNode" />
+              <item name="woocommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
+>>>>>>> origin/master
             </path>
           </expand>
           <select />
@@ -352,6 +606,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -359,14 +614,28 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/woocommerce/cart" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+>>>>>>> origin/master
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RecentsManager">
+<<<<<<< HEAD
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\Gardener\wp-content\themes\gardener" />
+=======
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\WooCommerce\wp-content\themes\WooCommers\woocommerce\cart" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\WooCommerce\wp-content\themes\WooCommers\woocommerce\cart" />
+      <recent name="C:\OSPanel\domains\WooCommerce\wp-content\themes\WooCommers\woocommerce" />
+      <recent name="C:\OSPanel\domains\WooCommerce\wp-content\themes\WooCommers\woocommerce\global" />
+>>>>>>> origin/master
     </key>
   </component>
   <component name="RunDashboard">
@@ -464,6 +733,7 @@
       <workItem from="1575219461822" duration="984000" />
       <workItem from="1575972202552" duration="15704000" />
       <workItem from="1575996569251" duration="1453000" />
+<<<<<<< HEAD
       <workItem from="1576000965320" duration="96000" />
       <workItem from="1576160065562" duration="700000" />
       <workItem from="1581175087178" duration="1130000" />
@@ -488,6 +758,26 @@
       <workItem from="1590827382246" duration="5469000" />
       <workItem from="1602416700768" duration="501000" />
       <workItem from="1602506074326" duration="169000" />
+=======
+      <workItem from="1576001071682" duration="4167000" />
+      <workItem from="1576152552675" duration="7497000" />
+      <workItem from="1577361237864" duration="1961000" />
+      <workItem from="1577529344086" duration="1312000" />
+      <workItem from="1578321028705" duration="862000" />
+      <workItem from="1578399759290" duration="599000" />
+      <workItem from="1578898458712" duration="7369000" />
+      <workItem from="1579092280232" duration="12881000" />
+      <workItem from="1579365785613" duration="3196000" />
+      <workItem from="1579420153866" duration="11714000" />
+      <workItem from="1579594879007" duration="12765000" />
+      <workItem from="1579703478576" duration="6075000" />
+      <workItem from="1579782827970" duration="13548000" />
+      <workItem from="1579950135003" duration="6758000" />
+      <workItem from="1580125242597" duration="18173000" />
+      <workItem from="1580280355127" duration="6350000" />
+      <workItem from="1580402831288" duration="6300000" />
+      <workItem from="1580480970715" duration="5982000" />
+>>>>>>> origin/master
     </task>
     <task id="LOCAL-00001" summary="new file">
       <created>1563302747273</created>
@@ -573,6 +863,7 @@
       <option name="project" value="LOCAL" />
       <updated>1569243760117</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00013" summary="final commit">
       <created>1602506168029</created>
       <option name="number" value="00013" />
@@ -585,11 +876,22 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="837216000" />
+=======
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="885513000" />
+>>>>>>> origin/master
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23853868" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2191977" />
+>>>>>>> origin/master
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -688,6 +990,7 @@
     <MESSAGE value="2" />
     <MESSAGE value="1" />
     <MESSAGE value="first commit" />
+<<<<<<< HEAD
     <MESSAGE value="final commit" />
     <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
@@ -915,11 +1218,292 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="106" selection-start-line="14" selection-start-column="106" selection-end-line="14" selection-end-column="106" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../../Gardener/wp-content/themes/gardener/aletheme/functions/woocommerce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/pagination.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive-gardeners.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="88" selection-start-line="88" selection-end-line="91" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/../../../../Alethemes/wp-content/themes/alethemes/aletheme/functions/customizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2997" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/etc/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="297" selection-start-line="297" selection-end-line="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/general.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/includes/customizer/class-wc-customizer-control-cropping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="13" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="648" column="34" selection-start-line="648" selection-start-column="25" selection-end-line="648" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="500" column="52" selection-start-line="500" selection-start-column="46" selection-end-line="500" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="106" column="89" selection-start-line="106" selection-start-column="75" selection-end-line="106" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/woocommerce.accordion.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Alethemes/wp-content/themes/alethemes/aletheme/functions/woocommerce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/woocommerce.accordion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/elements.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="124" column="5" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/global/wrapper-start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="53" column="74" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/cart/cross-sells.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/archive-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="79" column="7" lean-forward="true" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/single-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/content-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/templates/content-widget-price-filter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="30" column="59" lean-forward="true" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/templates/content-product_cat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/templates/content-widget-reviews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/templates/checkout/form-checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/templates/content-widget-product.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/templates/cart/cart-empty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/includes/widgets/class-wc-widget-cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/includes/class-wc-cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1479" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/includes/widgets/class-wc-widget-products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2227">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/templates/cart/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+          <folding>
+            <element signature="e#87#94#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/templates/single-product/product-image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/woocommerce/templates/cart/mini-cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="57" column="79" selection-end-line="96" />
+          <folding>
+            <element signature="e#135#142#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/content-single-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/etc/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/functions/tgm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11994">
+          <caret line="2757" column="64" lean-forward="true" selection-start-line="2757" selection-start-column="64" selection-end-line="2757" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/functions/customizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/init.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/functions/general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="172" column="15" selection-start-line="172" selection-start-column="9" selection-end-line="172" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aletheme/constants.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="357">
           <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
@@ -974,6 +1558,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="73" column="54" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="54" />
+=======
+        <state relative-caret-position="442">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/etc/front.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="52" column="51" lean-forward="true" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="94" column="45" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/css-option.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="146" column="191" selection-start-line="146" selection-start-column="191" selection-end-line="146" selection-end-column="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/css/woo_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="680" column="54" selection-start-line="680" selection-start-column="54" selection-end-line="680" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/content-widget-product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aletheme/functions/woocommerce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="191" column="5" selection-start-line="191" selection-start-column="3" selection-end-line="215" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/cart/mini-cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="58" column="133" selection-start-line="58" selection-start-column="133" selection-end-line="58" selection-end-column="133" />
+          <folding>
+            <element signature="e#135#142#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/woocommerce/cart/cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="122" column="29" lean-forward="true" selection-start-line="122" selection-start-column="29" selection-end-line="122" selection-end-column="29" />
+          <folding>
+            <element signature="e#87#94#1" expanded="true" />
+          </folding>
+>>>>>>> origin/master
         </state>
       </provider>
     </entry>

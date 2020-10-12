@@ -14,11 +14,19 @@ function ale_enqueue_styles() {
 	//Register libs
 	wp_register_style( 'font-awesome', ALETHEME_THEME_URL . '/css/font-awesome.min.css', array(), ALETHEME_THEME_VERSION, 'all');
 
+    //add_woocommerce custom styles
+    wp_register_style( 'aletheme_custom_woo_css', ALETHEME_THEME_URL . '/woocommerce/css/woo_style.css', array(), ALETHEME_THEME_VERSION, 'all');
 
 	//Load Preloader if it is enabled in Options
 	/*if(ale_get_option('preloder') == 'enable') {
 		wp_enqueue_style('aletheme-preloader');
 	}*/
+
+    if(in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_option ('active_plugins')))){
+	    //New Styles
+        //Load woocommerce custom styles
+        wp_enqueue_style('aletheme_custom_woo_css');
+	}
 
 	//Load general css
 	wp_enqueue_style('aletheme-general-css');
@@ -29,6 +37,7 @@ function ale_enqueue_styles() {
 
 
 }
+
 add_action( 'wp_enqueue_scripts', 'ale_enqueue_styles' );
 
 
@@ -45,6 +54,7 @@ function ale_enqueue_scripts() {
    wp_register_script( 'flexslider', ALETHEME_THEME_URL . '/js/libs/jquery.flexslider-min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
    wp_register_script( 'slick', ALETHEME_THEME_URL . '/js/libs/slick.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
    wp_register_script( 'venobox', ALETHEME_THEME_URL . '/js/libs/venobox.min.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
+   wp_register_script( 'ale-woo-accordion', ALETHEME_THEME_URL . '/js/libs/woocommerce.accordion.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
 
 	//Custom JS Code
 	wp_register_script( 'ale-scripts', ALETHEME_THEME_URL . '/js/scripts.js', array( 'jquery' ), ALETHEME_THEME_VERSION, true );
@@ -375,4 +385,5 @@ function ale_get_og_meta_image() {
 	
 	return $og_image;
 }
+
 

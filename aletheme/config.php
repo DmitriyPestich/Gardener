@@ -490,6 +490,31 @@ function ale_metaboxes($meta_boxes) {
     );
 
     $meta_boxes[] = array(
+        'id'         => 'woocommerce_shop_metabox',
+        'title'      => esc_html__('Product Additional Info','gardener'),
+        'pages'      => array( 'product', ), // Post type
+        'context'    => 'normal',
+        'priority'   => 'high',
+        'show_names' => true,
+        'fields' => array(
+            array(
+                'name' => esc_html__('Product Counter','gardener'),
+                'desc' => esc_html__('Type here how many items are in the package','gardener'),
+                'id'   => $prefix . 'product_counter',
+                'std'  => '',
+                'type' => 'text',
+            ),
+            array(
+                'name' => esc_html__('Product Archive Page Description','gardener'),
+                'desc' => esc_html__('Type here the text to show on archive page in hover mask','gardener'),
+                'id'   => $prefix . 'product_description',
+                'std'  => '',
+                'type' => 'text',
+            ),
+        )
+    );
+
+    $meta_boxes[] = array(
         'id'         => 'about_author_metabox',
         'title'      => esc_html__('Additional Info Settings','gardener'),
         'pages'      => array( 'page', ), // Post type

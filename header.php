@@ -76,7 +76,7 @@
             </div>
             <div class="main-navigation_home font_two">
                 <?php if (has_nav_menu( 'header_menu')) { ?>
-                    <nav class="navigation header_nav_home wrapper">
+                    <nav class="navigation header_nav_home">
                         <?php
                         wp_nav_menu( array(
                             'theme_location' => 'header_menu',
@@ -92,7 +92,7 @@
     <?php } else {?>
     <div class="main-navigation font_two">
         <?php if (has_nav_menu( 'header_menu')) { ?>
-            <nav class="navigation header_nav wrapper">
+            <nav class="navigation header_nav">
                 <?php
                 wp_nav_menu( array(
                     'theme_location' => 'header_menu',
